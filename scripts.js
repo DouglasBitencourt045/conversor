@@ -1,17 +1,22 @@
 // Botões e campos do HTML
 const convertButton = document.querySelector(".convert-button");
 const currencySelect = document.querySelector(".currency-select");
-const currencySelectConvertDe = document.querySelector(".currency-converter-de");
+const currencySelectConvertDe = document.querySelector(
+  ".currency-converter-de"
+);
 
 // Função para converter valores
 function convertValues() {
-  const inputCurrencyValue = document.querySelector(".input-currency").value || 0; // Pega o valor de entrada ou 0
-  const currencyValueToConvert = document.querySelector(".currency-value-to-convert"); // Exibe o valor em reais
+  const inputCurrencyValue =
+    document.querySelector(".input-currency").value || 0; // Pega o valor de entrada ou 0
+  const currencyValueToConvert = document.querySelector(
+    ".currency-value-to-convert"
+  ); // Exibe o valor em reais
   const currencyValueToConverted = document.querySelector(".currency-value"); // Exibe o valor convertido
 
   // Taxas de conversão
   const rates = {
-    dolar: 5.2,
+    dolar: 5.85,
     euro: 5.8,
     real: 1.0,
     bitcoin: 401535.75,
