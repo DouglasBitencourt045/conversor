@@ -17,10 +17,10 @@ function convertValues() {
   // Taxas de conversão
   const rates = {
     dolar: 5.85,
-    euro: 5.8,
+    euro: 6.64,
     real: 1.0,
-    bitcoin: 401535.75,
-    libra: 7.37,
+    bitcoin: 85486.6,
+    libra: 7.72,
   };
 
   // Configurações de formatação para cada moeda
